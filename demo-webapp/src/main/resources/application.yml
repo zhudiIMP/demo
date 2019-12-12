@@ -21,18 +21,10 @@ spring:
   session:
     store-type: none
   redis:
+    host: 10.166.104.129
+    port: 6379
     password:
-    maxIdle: 300
-    maxTotal: 1000
-    maxWaitMillis: 12000
-    minEvictableIdleTimeMillis: 300000
-    numTestsPerEvictionRun: 1024
-    timeBetweenEvictionRunsMillis: 30000
-    testOnBorrow: true
-    testWhileIdle: true
-    cluster:
-      nodes: 10.164.197.58:10001,10.164.197.58:10002,10.164.197.58:10003
-      max-redirects: 3
+
   datasource:
     dbcp2:
       test-while-idle: true

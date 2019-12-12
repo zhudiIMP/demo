@@ -31,7 +31,7 @@ public class SpringDataJpaConfig {
     @Bean
     public DataSource dataSource() {
         EmbeddedDatabaseBuilder builder = new EmbeddedDatabaseBuilder();
-        return builder.setType(EmbeddedDatabaseType.HSQL).build();
+        return builder.setType(EmbeddedDatabaseType.H2).build();
     }
     @Bean
     public JpaVendorAdapter jpaVendorAdapter() {

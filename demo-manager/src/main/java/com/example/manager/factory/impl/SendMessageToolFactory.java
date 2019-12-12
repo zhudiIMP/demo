@@ -1,7 +1,7 @@
 package com.example.manager.factory.impl;
 
 
-import com.haiercash.cmis.product.manager.factory.ISendMessageToolFactory;
+import com.example.manager.factory.ISendMessageToolFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

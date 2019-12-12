@@ -1,4 +1,4 @@
-package com.haiercash.cmis.common.channel;
+package com.example.common.channel;
 
 /**
  * 消费者渠道名称
